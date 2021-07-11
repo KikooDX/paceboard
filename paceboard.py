@@ -48,6 +48,9 @@ if len(config) == 0:
 # Set options (functions as defined earlier)
 options = [optionSetup, optionAddCategory, optionAddRun, optionQuit]
 
+# Force generation
+generate()
+
 # Main loop and input handler
 while True:
     key = "tk_game_name"
